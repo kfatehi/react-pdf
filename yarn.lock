@@ -1663,6 +1663,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keyvanfatehi/react-pdf@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@keyvanfatehi/react-pdf@workspace:."
+  dependencies:
+    "@babel/cli": ^7.15.0
+    "@babel/core": ^7.15.0
+    "@babel/plugin-transform-runtime": ^7.15.0
+    "@babel/preset-env": ^7.15.0
+    "@babel/preset-react": ^7.14.0
+    "@babel/runtime": ^7.0.0
+    "@testing-library/jest-dom": ^5.15.0
+    "@testing-library/react": ^12.1.0
+    eslint: ^8.5.0
+    eslint-config-wojtekmaj: ^0.6.5
+    file-loader: ^6.0.0
+    husky: ^7.0.0
+    jest: ^27.0.0
+    jest-canvas-mock: ^2.3.1
+    make-cancellable-promise: ^1.0.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    merge-refs: ^1.0.0
+    pdfjs-dist: 2.14.305
+    prettier: ^2.5.0
+    pretty-quick: ^3.1.0
+    prop-types: ^15.6.2
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    rimraf: ^3.0.0
+    tiny-invariant: ^1.0.0
+    tiny-warning: ^1.0.0
+    webpack: ^5.20.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3":
   version: 2.1.8-no-fsevents.3
   resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3"
@@ -6053,44 +6091,6 @@ __metadata:
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
   languageName: node
   linkType: hard
-
-"react-pdf@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-pdf@workspace:."
-  dependencies:
-    "@babel/cli": ^7.15.0
-    "@babel/core": ^7.15.0
-    "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/preset-env": ^7.15.0
-    "@babel/preset-react": ^7.14.0
-    "@babel/runtime": ^7.0.0
-    "@testing-library/jest-dom": ^5.15.0
-    "@testing-library/react": ^12.1.0
-    eslint: ^8.5.0
-    eslint-config-wojtekmaj: ^0.6.5
-    file-loader: ^6.0.0
-    husky: ^7.0.0
-    jest: ^27.0.0
-    jest-canvas-mock: ^2.3.1
-    make-cancellable-promise: ^1.0.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    merge-refs: ^1.0.0
-    pdfjs-dist: 2.14.305
-    prettier: ^2.5.0
-    pretty-quick: ^3.1.0
-    prop-types: ^15.6.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
-    rimraf: ^3.0.0
-    tiny-invariant: ^1.0.0
-    tiny-warning: ^1.0.0
-    webpack: ^5.20.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
 
 "react@npm:^17.0.0":
   version: 17.0.2
