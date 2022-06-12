@@ -274,7 +274,13 @@ export class PageInternal extends PureComponent {
         return <PageSVG key={`${this.pageKeyNoScale}_svg`} />;
       case 'canvas':
       default:
-        return <PageCanvas key={`${this.pageKey}_canvas`} canvasRef={canvasRef} />;
+        return (
+          <PageCanvas
+            key={`${this.pageKey}_canvas`}
+            canvasRef={canvasRef}
+            options={this.props.options}
+          />
+        );
     }
   }
 

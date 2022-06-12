@@ -113,6 +113,7 @@ export class PageCanvasInternal extends PureComponent {
         return canvas.getContext('2d');
       },
       viewport: renderViewport,
+      ...this.props.options,
     };
     if (canvasBackground) {
       renderContext.background = canvasBackground;
